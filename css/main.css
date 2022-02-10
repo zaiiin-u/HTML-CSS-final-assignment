@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,700&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@1,300;1,700&family=Sacramento&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat";
+}
+
+.nav {
+  background-color: #da1f5d;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.nav a {
+  color: white;
+  padding: 30px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.nav a:hover {
+  background-color: #404069;
+}
+
+main {
+  background-color: #333232;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main h1 {
+  color: white;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+  font-size: 75px;
+  text-align: center;
+}
+
+main h2 {
+  color: #da1f5d;
+  text-align: center;
+  font-family: "sacramento";
+  padding-top: 8px;
+  font-size: 80px;
+}
+
+.ProjectSection {
+  background-color: #404069;
+}
+
+.ProjectSection .message {
+  color: white;
+  font-size: larger;
+  font-family: "DM Serif Display";
+  font-weight: 300;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.ProjectSection .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 840px) {
+  .ProjectSection .projects {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.ProjectSection .projects .child {
+  width: 33%;
+  justify-items: start;
+  padding: 30px;
+}
+
+@media (max-width: 840px) {
+  .ProjectSection .projects .child {
+    width: 100%;
+    justify-items: center;
+  }
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  background-color: #333232;
+}
+
+.container .item1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .item2 a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.container .item2 .item2-bracket {
+  visibility: hidden;
+  color: #da1f5d;
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.container .item2:hover .item2-bracket {
+  visibility: visible;
+}
+
+.button1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button1 .PressButton {
+  background-color: #333232;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.button1 .PressButton a {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: x-large;
+  text-decoration: none;
+  text-align: center;
+}
+
+.PressButton:hover {
+  background-color: #da1f5d;
+}
+
+.contact {
+  background-color: #333232;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.contact h1 {
+  color: white;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+  font-size: 75px;
+  text-align: center;
+}
+
+.contact h3 {
+  color: white;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 100;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.contact a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: bolder;
+  text-shadow: 2px 4px #292828;
+}
+
+.contact a i {
+  font-size: x-large;
+  color: #da1f5d;
+}
+
+.contact {
+  position: relative;
+}
+
+.contact .end {
+  border-bottom: 6px solid #da1f5d;
+  width: 100%;
+  padding-top: 230px;
+}
+
+#movedown {
+  position: relative;
+  top: 0;
+  -webkit-transition: top ease 0.5s;
+  transition: top ease 0.5s;
+}
+
+#movedown:hover {
+  top: +10px;
+}
+/*# sourceMappingURL=main.css.map */
