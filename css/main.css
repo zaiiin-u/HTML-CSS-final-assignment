@@ -60,6 +60,12 @@ main {
           align-items: center;
 }
 
+@media (max-width: 840px) {
+  main {
+    padding: 20px;
+  }
+}
+
 main h1 {
   color: white;
   font-family: "DM Serif Display";
@@ -70,12 +76,24 @@ main h1 {
   text-align: center;
 }
 
+@media (max-width: 840px) {
+  main h1 {
+    font-size: 50px;
+  }
+}
+
 main h2 {
   color: #da1f5d;
   text-align: center;
   font-family: "sacramento";
   padding-top: 8px;
   font-size: 80px;
+}
+
+@media (max-width: 840px) {
+  main h2 {
+    font-size: 50px;
+  }
 }
 
 .ProjectSection {
@@ -94,6 +112,14 @@ main h2 {
   padding-bottom: 20px;
   letter-spacing: 1px;
   word-spacing: 1px;
+}
+
+@media (max-width: 840px) {
+  .ProjectSection .message {
+    font-size: 25px;
+    padding: 10px;
+    padding-top: 50px;
+  }
 }
 
 .ProjectSection .projects {
@@ -226,6 +252,12 @@ main h2 {
   text-align: center;
 }
 
+@media (max-width: 840px) {
+  .contact h1 {
+    font-size: 50px;
+  }
+}
+
 .contact h3 {
   color: white;
   text-align: center;
@@ -236,6 +268,12 @@ main h2 {
   padding-bottom: 50px;
 }
 
+@media (max-width: 840px) {
+  .contact h3 {
+    font-size: 15px;
+  }
+}
+
 .contact a {
   color: white;
   padding: 20px;
@@ -244,6 +282,12 @@ main h2 {
   font-size: 20px;
   font-weight: bolder;
   text-shadow: 2px 4px #292828;
+}
+
+@media (max-width: 840px) {
+  .contact a {
+    padding: 10px;
+  }
 }
 
 .contact a i {
@@ -259,6 +303,12 @@ main h2 {
   border-bottom: 6px solid #da1f5d;
   width: 100%;
   padding-top: 230px;
+}
+
+@media (max-width: 840px) {
+  .contact .end {
+    padding-top: 120px;
+  }
 }
 
 #movedown {
@@ -279,5 +329,14 @@ main h2 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   justify-items: center;
+}
+
+@media (max-width: 840px) {
+  .details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=main.css.map */
